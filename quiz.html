@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+
+
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html">Fun with Triangle</a>
+            </li>
+            <li class="nav-item">
+                <a href="quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item">
+                <a href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="nav-item">
+                <a href="istriangle.html">Is Triangle</a>
+            </li>
+            <li class="nav-item">
+                <a href="areaoftriangle.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <h1>Triangle Quiz</h1>
+    <div class="container">
+        <form id="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45 and angle = 45 ?</p>
+                <label><input type="radio" name="question1" value="90" />90</label>
+                <label><input type="radio" name="question1" value="60" />60</label>
+                <label><input type="radio" name="question1" value="45" />45</label>
+            </div>
+            <div class="question-container">
+                <p>If a triangle has angle of 90 degrees, what is it called?</p>
+                <label for=""><input type="radio" name="question2" value="Acute" />Acute</label>
+                <label for=""><input type="radio" name="question2" value="Obtuse" />Obtuse</label>
+                <label for=""><input type="radio" name="question2" value="Right Angled" />Right Angled</label>
+            </div>
+
+            <div class="question-container">
+                <p>How many sides triangles have?</p>
+                <label><input for="" type="radio" name="question3" value="2" />2</label>
+                <label><input for="" type="radio" name="question3" value="3" />3</label>
+                <label><input for="" type="radio" name="question3" value="1" />1</label>
+            </div>
+            <div class="question-container">
+                <p>What is total sum of all angles of triangles?</p>
+                <label><input for="" type="radio" name="question4" value="90" />90</label>
+                <label><input for="" type="radio" name="question4" value="120" />120</label>
+                <label><input for="" type="radio" name="question4" value="180" />180</label>
+            </div>
+            <div class="question-container"></div>
+            <div class="question-container"></div>
+            <div class="question-container"></div>
+            <div class="question-container"></div>
+            <div class="question-container"></div>
+            <div class="question-container"></div>
+
+            <button id="submit-answer-btn">Submit Answers</button>
+        </form>
+    </div>
+
+    <div id="output"></div>
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>

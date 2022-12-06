@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 6oopx;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-bottom: 4vh;
+  color: blue;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+}
+
+input {
+  margin-bottom: 2vh;
+  width: 600px;
+  text-align: center;
+}
+
+#submit-btn {
+  display: block;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#output {
+  margin-top: 2vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blue;
+}
